@@ -3,7 +3,7 @@ let choices = [];
 function sliderValue() {
     const slider = document.getElementById("slider").value;
     const firstButton = document.getElementById("firstButton");
-
+ 
     firstButton.innerHTML = slider;
 }
 
