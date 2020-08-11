@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h2>Select how many choices you want (max. 20)</h2>
+    <input type="range" min="2" max="20" id="slider" value="2" onchange="sliderValue()">
+    <button id="firstButton" onclick="firstValidation()">2</button>
+    <h2>Type in the choices:</h2>
+    <div id="container"></div>
+    <button id="secondButton" onclick="secondValidation()" disabled="true">Go</button>
+    <h2>Check the result:</h2>
+    <h3 id="output"> </h3>
+    <script src="script.js"> </script>
+</body>
+</html>
