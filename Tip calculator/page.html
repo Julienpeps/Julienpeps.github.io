@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Calculate the perfect tip !</h2>
+    <br>
+    <h3>How much is the bill ?</h3>
+    <div id="billDiv">
+        <input type="number" id="billInput">
+    </div>
+    <h3>Rate the service between 1 and 5</h3>
+    <div id="ratingDiv">
+        <input type="range" id="ratingInput" min="1" max="5" value="3" onchange="ratingOutputFunction()">
+        <h4 id="ratingOutput">3</h4>
+    </div>
+    <h3>How many persons participate to the tip ?</h3>
+    <div id="personsDiv">
+        <input type="number" id="personsInput">
+    </div>
+    <br>
+    <button id="validationButton" onclick="tipCalculation()">Validate</button>
+    <div id="resultDiv">
+        <h4 id="resultOutput"> </h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

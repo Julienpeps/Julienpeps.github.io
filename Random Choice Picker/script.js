@@ -1,3 +1,6 @@
+// Created by Julienpeps
+// https://github.com/Julienpeps/Julienpeps.github.io
+
 let choices = [];
 
 function sliderValue() {
