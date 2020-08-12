@@ -1,5 +1,9 @@
 # Julienpeps
 
+## Introduction
+
+I am a programming languages self-learner and i'm currently learning web development with JavaScript and HTML. The style will come later ;)
+
 ## Random choice picker
 
 This is my first small project in JS.
