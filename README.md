@@ -4,6 +4,8 @@
 
 I am a programming languages self-learner and i'm currently learning web development with JavaScript and HTML. The style will come later ;)
 
+I create small projects for fun and for training, you can find them below.
+
 ## Random choice picker
 
 This is my first small project in JS.
