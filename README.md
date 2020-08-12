@@ -21,3 +21,11 @@ This project was inspired by [Skillcrush](https://skillcrush.com/blog/projects-y
 Enter the bill amount, select the rating and type in the number of persons.
 
 [Tip Calculator](https://julienpeps.github.io/Tip%20calculator/page.html)
+
+## Simple counter
+
+This is the easiest project i've made and it took me something like 5 minutes.
+
+Anyway this works like a counter obviously.
+
+[Simple counter](https://julienpeps.github.io/Simple%20counter/page.html)
