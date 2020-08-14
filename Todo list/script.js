@@ -6,6 +6,7 @@ function addTask(){
     if (textInput.length > 0){    
         text = textInput.charAt(0).toUpperCase() + textInput.slice(1).toLowerCase();
         printTask(text);
+        textInput.value = '';
     }
 }
 
