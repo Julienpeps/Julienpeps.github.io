@@ -24,8 +24,16 @@ Enter the bill amount, select the rating and type in the number of persons.
 
 ## Simple counter
 
-This is the easiest project i've made and it took me something like 5 minutes.
+This is the easiest project i've made so far.
 
-Anyway this works like a counter obviously.
+Anyway this works like an usual counter, obviously.
 
 [Simple counter](https://julienpeps.github.io/Simple%20counter/index.html)
+
+## To-Do list 
+
+I know it's not perfect but I'm still pretty proud of it.
+
+Add tasks and delete them, that's it.
+
+[To-Do List](http://julienpeps.github.io/Todo%20list/index.html)
