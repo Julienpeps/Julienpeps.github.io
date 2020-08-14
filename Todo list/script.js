@@ -3,8 +3,10 @@ let divContainer = document.getElementById("tasks");
 
 function addTask(){
     let textInput = document.getElementById("input").value;
-    text = textInput.charAt(0).toUpperCase() + textInput.slice(1).toLowerCase();
-    printTask(text);
+    if (textInput.length > 0){    
+        text = textInput.charAt(0).toUpperCase() + textInput.slice(1).toLowerCase();
+        printTask(text);
+    }
 }
 
 function printTask(text){
