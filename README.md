@@ -12,7 +12,7 @@ This is my first small project in JS.
 
 Just choose how many choices you want to randomize, type in your choices and check the result!
 
-[Random Choice Picker](https://julienpeps.github.io/Random%20Choice%20Picker/page.html)
+[Random Choice Picker](https://julienpeps.github.io/Random%20Choice%20Picker/index.html)
 
 ## Tip calculator
 
@@ -20,7 +20,7 @@ This project was inspired by [Skillcrush](https://skillcrush.com/blog/projects-y
 
 Enter the bill amount, select the rating and type in the number of persons.
 
-[Tip Calculator](https://julienpeps.github.io/Tip%20calculator/page.html)
+[Tip Calculator](https://julienpeps.github.io/Tip%20calculator/index.html)
 
 ## Simple counter
 
@@ -28,4 +28,4 @@ This is the easiest project i've made and it took me something like 5 minutes.
 
 Anyway this works like a counter obviously.
 
-[Simple counter](https://julienpeps.github.io/Simple%20counter/page.html)
+[Simple counter](https://julienpeps.github.io/Simple%20counter/index.html)
