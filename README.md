@@ -14,6 +14,8 @@ Just choose how many choices you want to randomize, type in your choices and che
 
 [Random Choice Picker](https://julienpeps.github.io/Random%20Choice%20Picker/index.html)
 
+[Random Choice Picker V2](https://julienpeps.github.io/Random%20choice%20picker%20V2/index.html)
+
 ## Tip calculator
 
 This project was inspired by [Skillcrush](https://skillcrush.com/blog/projects-you-can-do-with-javascript/)
