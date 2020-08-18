@@ -1,0 +1,105 @@
+body {
+  background-color: #272727;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+.box {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  width: 420px;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  background: #fff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"] {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 70px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #c0bdb8;
+}
+
+.objects {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 420px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  vertical-align: top;
+  color: #fff;
+  font-size: 20px;
+}
+
+#randomizeContainer {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  width: 200px;
+  transform: translate(-50%, -50%);
+}
+
+#randomizeButton {
+  background: #c0bdb8;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#resetButton {
+    background: #c0bdb8;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+h2 {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    width: 420px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+    font-size: 30px;
+}

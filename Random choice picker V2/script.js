@@ -6,12 +6,14 @@ const randomizeContainer = document.getElementById('randomizeContainer');
 
 // Add objectInput to local storage
 function addObject(){
-    // Create keys for local storage item
-    const key = localStorage.length + 1;
+    if(localStorage.length < 10){
+        // Create keys for local storage item
+        const key = localStorage.length + 1;
 
-    // Store item in local storage
-    objectName = objectInput.value;
-    localStorage.setItem(key, objectName);
+        // Store item in local storage
+        objectName = objectInput.value;
+        localStorage.setItem(key, objectName);
+    }
 }
 
 // Print objects
@@ -21,14 +23,20 @@ for(let i = 1; i <= localStorage.length; i++){
     objectOutput.appendChild(object);
 }
 
-// Create the "Randomize" button if there is at least 2 objects
+// Create the "Randomize" and reset buttons if there is at least 2 objects
 if(localStorage.length >= 2){
     const button = document.createElement('button');
     button.innerHTML = 'Randomize';
     button.id = 'randomizeButton';
     button.setAttribute('onclick', 'randomize()');
 
+    const resetButton = document.createElement('button');
+    resetButton.innerHTML = 'Reset';
+    resetButton.id = 'resetButton';
+    resetButton.setAttribute('onclick', 'reset()');
+
     randomizeContainer.appendChild(button);
+    randomizeContainer.appendChild(resetButton);
 }
 
 function randomize(){
@@ -41,4 +49,10 @@ function randomize(){
     // Create the output
     const object = document.getElementById('output');
     object.innerHTML = randomItem;
+}
+
+function reset(){
+    localStorage.clear();
+
+    location.reload();
 }
