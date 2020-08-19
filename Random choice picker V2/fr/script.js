@@ -26,12 +26,12 @@ for(let i = 1; i <= localStorage.length; i++){
 // Create randomize and reset buttons if there are at least 2 objects
 if(localStorage.length >= 2){
     const button = document.createElement('button');
-    button.innerHTML = 'Randomize';
+    button.innerHTML = 'Résultat';
     button.id = 'randomizeButton';
     button.setAttribute('onclick', 'randomize()');
 
     const resetButton = document.createElement('button');
-    resetButton.innerHTML = 'Reset';
+    resetButton.innerHTML = 'Effacer';
     resetButton.id = 'resetButton';
     resetButton.setAttribute('onclick', 'reset()');
 
